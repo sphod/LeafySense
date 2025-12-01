@@ -66,10 +66,10 @@ extern const int DAYLIGHT_OFFSET_SEC;
 #define MQTT_PUBLISH_INTERVAL 30000  // Publish to MQTT every 30 seconds
 
 // OTA Configuration
-#define CURRENT_FIRMWARE_VERSION "1.0.1"
-#define GITHUB_OWNER "sphod"
-#define GITHUB_REPO "test"
-#define FIRMWARE_ASSET_NAME "SmartGarden_ESP32C6.ino.bin"
+#define CURRENT_FIRMWARE_VERSION "1.0"
+#define GITHUB_OWNER "sphod"        // Replace with actual GitHub owner
+#define GITHUB_REPO "test"          // Replace with actual GitHub repository  
+#define FIRMWARE_ASSET_NAME "LeafySense.ino.bin" // Replace with actual asset name
 #define UPDATE_CHECK_INTERVAL 10000  // 5 minutes in milliseconds
 
 #endif
